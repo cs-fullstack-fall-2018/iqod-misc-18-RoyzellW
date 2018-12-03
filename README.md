@@ -20,3 +20,14 @@ Output:
 4
 6
 ```
+
+
+arrayOne = [[4, 5, 6], [2, 3, 4, 5], [7, 5, 3, 4, 1]];
+
+for (i=0; i<arrayOne.length;i++){
+arrayOne.pop()
+
+}
+
+// regular expression to access the first and last number within an array
+/^[0-9](.*[0-9])?$/igm
